@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    width: 100vw;
+    height: 200px;
+    padding: 0 64px;
+  
+    background: #001529;
+  
+    position: relative;
+  
+    > div {
+      width: 33%;
+    }
+  
+    &-add {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+      img {
+        height: 58px;
+      }
+  
+      button {
+        width: 64px;
+        height: 64px;
+  
+        border-radius: 50%;
+        font-size: 32px;
+  
+        position: absolute;
+        bottom: -30px;
+      }
+    }
+  }
+  

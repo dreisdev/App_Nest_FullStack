@@ -1,0 +1,26 @@
+button {
+    width: 100%;
+    height: 52px;
+    border: none;
+  
+    cursor: pointer;
+  
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  
+  .btn-pink {
+    background: #fe177d;
+    color: white;
+    border-radius: 8px;
+  }
+
+  .btn-edit {
+    background: #fe177d;
+    color: white;
+    border-radius: 8px;
+    width: 300px;
+   
+  }
+  

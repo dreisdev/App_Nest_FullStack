@@ -1,0 +1,49 @@
+.backdrop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.4);
+  
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    width: 450px;
+    height: 350px;
+    padding: 32px;
+  
+    background-color: white;
+    color: #262626;
+  
+    text-align: center;
+  
+    position: relative;
+  
+    > div {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+  
+  .close-icon {
+    width: 32px;
+    height: 32px;
+  
+    top: 32px;
+    right: 32px;
+  
+    position: absolute;
+  
+    cursor: pointer;
+  }
+  

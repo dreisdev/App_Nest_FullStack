@@ -1,0 +1,18 @@
+@import "./buttons.scss";
+@import "./inputs.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+
+  width: 100vw;
+  min-height: 100vh;
+
+  background: white;
+}

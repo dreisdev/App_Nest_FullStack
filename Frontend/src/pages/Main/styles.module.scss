@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  
+    width: 100vw;
+    min-height: 100vh;
+  }
+  
+  .tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  
+    margin-top: 72px;
+    padding-top: 24px;
+  
+    border-top: 1px solid #333333;
+  
+    width: 736px;
+  }
+  
+  .empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    margin-top: 150px;
+  
+    color: #262626;
+  
+    img {
+      height: 64px;
+      width: 64px;
+    }
+  
+    strong {
+      margin: 16px 0 4px 0;
+      color: rgb(145, 143, 143);
+    }
+  }
+  
