@@ -1,30 +1,84 @@
-# React + TypeScript + Vite
+# Frontend Todo_List.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao README do projeto TodoList. Este projeto na parte do Frontend foi desenvolvido com React.js.
 
-Currently, two official plugins are available:
+## 🔥 Introdução
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Trata-se do Frontend para para o projeto TodoList.
 
-## Expanding the ESLint configuration
+# 🗃️ Implementações do Frontend:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Criação das seguintes features: {
 
-- Configure the top-level `parserOptions` property like this:
+#### Gerenciamento TodoList:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+- Criação;
+- Detalhamento;
+- Atualização;
+- Exclusão;
+- Painel com informações sobre o clima.
+  -Página de Detalhamento das tarefas.
+
+  }
+
+### ⚙️ Pré-requisitos
+
+Certifique-se de ter o Node.js instalado em sua máquina antes de executar a aplicação.
+
+```
+Clone o repositório: git clone [URL do Repositório]
+Instale as dependências: npm install
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### 🔨 Guia de instalação
+
+Para instalar e executar o projeto, siga as etapas abaixo:
+
+1. Clone o repositório:
+
+```
+git clone [URL do Repositório]
+
+```
+
+2. Instale as dependências:
+
+```
+npm install
+
+```
+
+3. Inicie a aplicação:
+
+```
+npm run dev
+
+
+```
+
+## 📦 Tecnologias usadas:
+
+**Backend:**
+
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+
+![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+
+## 👷 Autores
+
+- **Diego Reis** - _Desenvolvedor FullStack_
+
+## 📄 Licença
+
+Esse projeto está sob a licença (MIT LICENSE)
+
+## 💡 Contato
+
+- Para suporte, mande um email para dreis.dev@outlook.com.
+- [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dreis-dev/)
