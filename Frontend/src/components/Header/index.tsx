@@ -4,7 +4,7 @@ import ResumeWeather from "../ResumeWeather";
 import styles from "./styles.module.scss";
 
 interface IProps {
-  handleOpenModal: () => void;
+  handleOpenModal?: () => void;
   operation?: "add" | "edit";
 }
 
