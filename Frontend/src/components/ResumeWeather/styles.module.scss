@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+  
+    strong,
+    span {
+      color: white
+    }
+  
+    span {
+      margin-left: 4px;
+    }
+  }
+
+  .weather {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+  }
+  

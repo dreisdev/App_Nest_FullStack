@@ -1,5 +1,6 @@
 import Logo from "../../assets/logo.png";
 import Resume from "../Resume";
+import ResumeWeather from "../ResumeWeather";
 import styles from "./styles.module.scss";
 
 interface IProps {
@@ -10,7 +11,9 @@ interface IProps {
 function Header({ handleOpenModal, operation = "add" }: IProps) {
   return (
     <header className={styles.container}>
-      <div></div>
+      <div>
+        <ResumeWeather />
+      </div>
       <div className={styles["container-add"]}>
         <img src={Logo} alt="logo" />
         {operation === "add" ? (

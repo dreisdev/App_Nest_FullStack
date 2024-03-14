@@ -1,9 +1,11 @@
 import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import taskReducer from "../features/tasks";
+import weatherReducer from "../features/weather";
 
 
 const rootReducer = combineReducers({
     tasks: taskReducer,
+    weatherReducer: weatherReducer,
 });
 
 export const store = configureStore({
