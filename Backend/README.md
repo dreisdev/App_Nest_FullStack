@@ -81,6 +81,13 @@ DATABASE_URL="postgresql://"usuárioPostgres":"Senha"@localhost:5432/"NOME DO BA
 
 ```
 
+3. Sicronizando a variável de ambiente no prisma:
+
+```
+Se faz necessário o comando 'npx prisma generate' para que o shema.prisma entifique a variável de ambiente.
+
+```
+
 ## 📦 Tecnologias usadas:
 
 **Backend:**
