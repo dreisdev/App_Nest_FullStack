@@ -4,11 +4,11 @@ Bem-vindo ao README do projeto TodoList. Este projeto foi desenvolvido com Nest.
 
 ## 🔥 Introdução
 
-Trata-se do backend para para o projeto TodoList.
+Trata-se do backend para o projeto TodoList.
 
 # 🗃️ Implementações do Backend:
 
-- Criação das seguintes Rota: {
+- Criação das seguintes Rotas: {
 
 #### Gerenciamento TodoList:
 

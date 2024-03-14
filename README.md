@@ -1,10 +1,21 @@
-# Frontend Todo_List.
+# Projeto Todo_List.
 
-Bem-vindo ao README do projeto TodoList. Este projeto na parte do Frontend foi desenvolvido com React.js.
+Bem-vindo ao README do projeto TodoList. Este projeto foi desenvolvido com Nest.js para o Backend e React.js para o Frontend.
 
-## 🔥 Introdução
+# 🗃️ Implementações do Backend:
 
-Trata-se do Frontend para o projeto TodoList.
+- Criação das seguintes Rotas: {
+
+#### Gerenciamento TodoList:
+
+- Criação;
+- Detalhamento;
+- Atualização;
+- Exclusão;
+
+  }
+
+- Utilização do prismaOrm para gestão do banco de dados.
 
 # 🗃️ Implementações do Frontend:
 
@@ -21,42 +32,17 @@ Trata-se do Frontend para o projeto TodoList.
 
   }
 
-### ⚙️ Pré-requisitos
-
-Certifique-se de ter o Node.js instalado em sua máquina antes de executar a aplicação.
-
-```
-Clone o repositório: git clone [URL do Repositório]
-Instale as dependências: npm install
-```
-
-### 🔨 Guia de instalação
-
-Para instalar e executar o projeto, siga as etapas abaixo:
-
-1. Clone o repositório:
-
-```
-git clone [URL do Repositório]
-
-```
-
-2. Instale as dependências:
-
-```
-npm install
-
-```
-
-3. Inicie a aplicação:
-
-```
-npm run dev
-
-
-```
-
 ## 📦 Tecnologias usadas:
+
+**Backend:**
+
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
+
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
 **Frontend:**
 
